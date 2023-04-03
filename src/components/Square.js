@@ -1,6 +1,6 @@
 import React from "react"
 
-const Square = ({square, index, handleGamePlay}) => {
+const Square = ({square, index, handleGamePlay,}) => {
   const handleClick = () => {
     handleGamePlay(index)
   }
